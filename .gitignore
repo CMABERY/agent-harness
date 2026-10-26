@@ -1,0 +1,28 @@
+# Python environments and generated files
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local credentials and runtime logs
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
+*.jsonl
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
